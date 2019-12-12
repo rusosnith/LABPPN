@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accion de Amparo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/bulma-steps.css">
+        <link rel="stylesheet" href="css/bulma-timeline.min.css">
+
+
+    <style type="text/css">
+
+    
+      #nav-container-top {
+        height: 1px;
+      }
+
+     #nav-container {
+         position: sticky;
+        top: 0;
+        padding:10px;
+
+        transition: 0.15s all ease;
+      }
+
+      #nav-container #title{
+        transform: scale(1);
+      }
+
+
+      .nav-container-sticky #title{
+        transform: scale(0) !important;
+        display: none;
+      }
+
+    
+      .nav-container-sticky {
+        z-index: 10;
+        background-color: white;
+        padding: 2px;
+      }
+    
+      .box {
+         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      }
+
+      .card{
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      }
+ 
+      .box, .card{
+        background-color: white;
+      }
+
+      .timeline .timeline-item {
+    display: flex;
+    display: -webkit-flex;
+    position: relative;
+    margin-left: 2em;
+    padding-bottom: 1em;
+}
+
+.timeline.is-centered .timeline-item:nth-of-type(2n) .timeline-content {
+    padding: 1em 1em 0 0;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-basis: 100%;
+}
+
+.timeline .timeline-item .timeline-content {
+    padding: 1em 0 0 1em;
+}
+
+section{
+  margin-bottom: 100px;
+}
+
+
+span.tag.is-primary{
+  display: block;
+    height: auto;
+    padding: 6px 10px;
+        padding: 4px 15px;
+}
+
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <section class="hero is-success is-medium">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active">
+                  Inicio
+                </a>
+                <a class="navbar-item">
+                  Acerca del Proyecto
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    
+
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered ">
+          <div class="columns is-mobile is-centered ">
+            <div class="column is-four-fifths-tablet is-two-thirds-desktop has-text-left	">
+            <h2 class="title">
+              Proceso del Amparo
+            </h2>
+            <h2 class="subtitle">
+              Linea de tiempo del proceso judicial de Amparo
+            </h2>
+            </div>
+          </div>
+          
+      
+        </div>
+      </div>
+    
+      <!-- Hero footer: will stick at the bottom -->
+      <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <li class="is-active"><a>Acción de Amparo</a></li>
+              <li><a>Linea de tiempo</a></li>
+              <li><a>Glosario</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    </section>
+
+
+    <section  class="section is-medium">
+      <div class="container is-widescreen">
+        <div class="columns is-mobile is-centered">
+          <div class="column is-four-fifths-tablet is-two-thirds-desktop has-text-left	">
+            <h2 class="title has-text-centered">
+              Acción de Amparo: Garantiza derechos
+            </h2>
+
+                            <div class="columns is-centered ">
+                              <div class="column  is-narrow content ">
+                                  <h3>Características:</h3>
+                                  <ul>
+                                    <li>Rápida</li>
+                                    <li>Expedita</li>
+                                    <li>Gratuita</li>
+                                  </ul>
+                              </div>
+                              </div>
+
+                                    <div class="column content has-text-centered notification">
+                                      <h3>¿Cuando procede?</h3>
+                                      <div class="timeline is-centered">
+                                        <header class="timeline-header">
+                                          <span class="tag is-medium is-primary">Sea Manifiesta</span>
+                                        </header>
+                                        <div class="timeline-item is-primary">
+                                          <div class="timeline-marker is-primary"></div>
+                                          <div class="timeline-content">
+                                            <p>No necesita demasada prueba</p>
+                                          </div>
+                                        </div>
+                                        <header class="timeline-header">
+                                          <span class="tag is-medium  is-primary">Siempre que no exista otro<br> medio judicial más idóneo</span>
+                                        </header>
+                                        <div class="timeline-item is-danger">
+                                          <div class="timeline-marker is-danger is-icon">
+                                            <i class="fa fa-flag"></i>
+                                          </div>
+                                          <div class="timeline-content">
+                                            <p>Si lo hay, sigue el proceso ordinario</p>
+                                          </div>
+                                        </div>
+                                        <header class="timeline-header">
+                                          <span class="tag is-medium is-primary">Contra todo acto u omision</span>
+                                        </header>
+                                        <div class="timeline-item is-primary">
+                                          <div class="timeline-content">
+                                          </div>
+                                        </div>
+                                        <header class="timeline-header">
+                                          <span class="tag is-medium is-primary" style="display: block; height: auto;">
+                                            Que en forma actual o Inminente:<br>
+                                            Lesione - Restrinja - Altere - Amenace
+                                          </span>
+                                        </header>
+                                        
+                                        <div class="timeline-item is-primary">
+                                          <div class="timeline-content">
+ 
+                                          </div>
+                                        </div>
+                                        <header class="timeline-header">
+                                          <span class="tag is-medium is-primary">Con arbitrariedad e ilegalidad manifiesta <br>derechos y garantías conocidos por:</span>
+                                        </header>
+                                        <header class="timeline-header">
+                                          <ul>
+                                            <li>Leyes de la Nación</li>
+                                            <li>Leyes Locales</li>
+                                            <li>Constitución de CABA</li>
+                                            <li>Constitución Nacional</li>
+                                            <li>Tratados internacionales</li>
+                                            <li>Tratados interjurisdiccionales</li>
+                                          </ul>
+                                        </header>
+                                        
+                                      </div>
+
+                                    </div>
+
+                                   
+
+          </div>
+        </div>
+     </div>
+    </section>
+
+<section class="section is-medium has-background-warning		">
+  <div class="container is-widescreen">
+    <div class="columns is-mobile is-centered">
+      <div class="column is-four-fifths-tablet is-two-thirds-desktop has-text-left box	">
+        <h2 class="title has-text-centered ">
+         Linea de tiempo de la Accion de Amparo
+        </h2>
+
+        <div class="column content has-text-centered">
+
+          <div class="timeline is-centered">
+            <header class="timeline-header">
+              <span class="tag is-large is-primary">Conocimiento cierto de la lesión,<br>
+                restricción, alteración o amenaza</span>
+            </header>
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-primary"></div>
+              <div class="timeline-content">
+                <p>Recusación con causa</p>
+              </div>
+            </div>
+            <header class="timeline-header">
+              <span class="tag is-medium  is-primary">Interposicion de la acción</span>
+            </header>
+            <div class="timeline-item is-primary">
+              <br><br>
+            </div>
+            <header class="timeline-header">
+              <span class="tag is-medium is-primary">Rechazo In Limine u <br>orden de reconducción de la acción</span>
+            </header>
+          <div class="timeline-item is-danger">
+            <div class="timeline-marker is-danger is-icon">
+              <i class="fa fa-flag"></i>
+            </div>
+            <div class="timeline-content">
+              <p>Dictado de medida cautelar<br>
+              (si hubiera sido solicitada)</p>
+            </div>
+          </div>
+            <header class="timeline-header">
+              <span class="tag is-medium is-primary" style="display: block; height: auto;">
+                Traslado de la demanda y Res. cautelar
+                <br>
+                (si hubiere)
+              </span>
+            </header>
+
+          <div class="timeline-item is-danger">
+            <div class="timeline-marker is-danger is-icon">
+              <i class="fa fa-flag"></i>
+            </div>
+            <div class="timeline-content">
+              <p>Si no hay Reconducción<br>
+                >> Archivo</p>
+            </div>
+          </div>
+            <header class="timeline-header">
+              <span class="tag is-medium is-primary">Contestación de demanda</span>
+            </header>
+            <div class="timeline-item is-primary">
+              <div class="timeline-marker is-primary"></div>
+              <div class="timeline-content">
+                <p>Producción de la prueba</p>
+              </div>
+            </div>
+            <div class="timeline-item is-info">
+              <div class="timeline-marker is-info"></div>
+              <div class="timeline-content">
+                <p>Vista al/a Fiscal</p>
+              </div>
+            </div>
+          <header class="timeline-header">
+            <span class="tag is-medium is-info">Sentencia definitiva</span>
+          </header>
+          <div class="timeline-item is-info">
+            <div class="timeline-marker is-info"></div>
+            <div class="timeline-content">
+              <p>Recurso de Apelación</p>
+            </div>
+            
+          </div>
+          <div class="timeline-item is-info">
+            <div class="timeline-marker is-info"></div>
+            <div class="timeline-content">
+              <p>Traslado de la Apelación</p>
+            </div>
+                    
+          </div>
+<header class="timeline-header">
+  <span class="tag is-medium is-primary">Concesión del recurso</span>
+</header>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <script>
+
+      var observer = new IntersectionObserver(function (entries) {
+        if (entries[0].intersectionRatio === 0)
+          document.querySelector('#nav-container').classList.add("nav-container-sticky");
+        else if (entries[0].intersectionRatio === 1)
+          document.querySelector('#nav-container').classList.remove("nav-container-sticky");
+      }, { threshold: [0, 1] });
+
+      observer.observe(document.querySelector("#nav-container-top"));
+
+
+    </script>
+
+    
+  </body>
+</html>
